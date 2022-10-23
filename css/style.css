@@ -116,3 +116,21 @@ body {
         transform: rotate(1turn);
     }
   }
+
+  
+@media screen and (max-width: 480px) {
+	.hero {
+	    flex-direction: column; 
+        flex-flow: column wrap;   
+	}
+
+    .music{
+        flex-direction: column; 
+        flex-flow: column wrap;   
+    }
+
+    .controls{
+        flex-direction: column; 
+        flex-flow: column wrap;  
+    }
+}
